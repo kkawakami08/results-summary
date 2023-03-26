@@ -8,14 +8,19 @@ export default function Home() {
       <Head>
         <title>Results Summary Component</title>
       </Head>
-      <main className="h-screen bg-purple-900 ">
+      <main className="h-screen bg-white flex flex-col items-center">
         <Header />
-        <h1>Summary</h1>
-        <SummaryPoints />
-        <SummaryPoints />
-        <SummaryPoints />
-        <SummaryPoints />
-        <button>Continue</button>
+
+        <div className="w-5/6 flex flex-col gap-4 py-5">
+          <h1 className="font-extrabold text-2xl text-darkGrayBlue">Summary</h1>
+          <SummaryPoints />
+          <SummaryPoints />
+          <SummaryPoints />
+          <SummaryPoints />
+          <button className="bg-darkGrayBlue text-white py-5 rounded-full font-medium text-lg">
+            Continue
+          </button>
+        </div>
       </main>
     </>
   );

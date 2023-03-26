@@ -18,6 +18,10 @@ module.exports = {
         paleBlue: "hsl(var(--pale-blue))",
         lightLavender: "hsl(var(--light-lavender))",
         darkGrayBlue: "hsl(var(--dark-gray-blue))",
+        lightRed: "hsl(var(--light-red))",
+        orangeyYellow: "hsl(var(--orangey-yellow))",
+        greenTeal: "hsl(var(--green-teal))",
+        cobaltBlue: "hsl(var(--cobalt-blue))",
       },
       fontFamily: {
         sans: ["Hanken Grotesk", "Arial", "sans-serif"],
