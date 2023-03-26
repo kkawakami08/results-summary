@@ -13,8 +13,8 @@ module.exports = {
       colors: {
         headerLight: "hsl(var(--header-light))",
         headerDark: "hsl(var(--header-dark))",
-        circleLight: "hsl(var(--cirlce-light)/1)",
-        circleDark: "hsl(var(--circle-dark)/0)",
+        circleLight: "hsl(var(--cirlce-light))",
+        circleDark: "hsl(var(--circle-dark))",
         paleBlue: "hsl(var(--pale-blue))",
         lightLavender: "hsl(var(--light-lavender))",
         darkGrayBlue: "hsl(var(--dark-gray-blue))",

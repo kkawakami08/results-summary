@@ -20,7 +20,7 @@ export default function Home() {
       <main className="h-screen bg-white flex flex-col items-center lg:flex-row lg:w-3/5 lg:mx-auto lg:justify-center ">
         <Header testResults={results} />
 
-        <div className="w-5/6 flex flex-col gap-4 py-5 lg:px-7 lg:rounded-r-3xl lg:shadow-md lg:w-3/4  lg:h-1/2">
+        <div className="w-5/6 flex flex-col gap-4 py-5 lg:px-7 lg:rounded-r-3xl lg:shadow-md lg:w-3/4  lg:h-3/5 lg:justify-center">
           <h1 className="font-extrabold text-2xl text-darkGrayBlue">Summary</h1>
           <SummaryPoints data={testResults[0]} />
           <SummaryPoints data={testResults[1]} />

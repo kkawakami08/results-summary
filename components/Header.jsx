@@ -11,10 +11,10 @@ export default function Header({ testResults }) {
     }
   };
   return (
-    <div className="w-full bg-gradient-to-b from-headerLight to-headerDark flex flex-col items-center justify-center gap-5 py-8 rounded-b-3xl lg:rounded-l-3xl lg:rounded-br-none  lg:gap-10 lg:py-10 lg:px-5 lg:w-3/4 lg:h-1/2">
+    <div className="w-full bg-gradient-to-b from-headerLight to-headerDark flex flex-col items-center justify-center gap-5 py-8 rounded-b-3xl lg:rounded-l-3xl lg:rounded-br-none  lg:gap-10 lg:py-10 lg:px-2 lg:w-3/4 lg:h-3/5">
       <h1 className="text-lightLavender text-lg lg:text-2xl">Your Result</h1>
 
-      <div className="rounded-full bg-gradient-to-t from-circleDark to-circleLight flex flex-col items-center justify-center w-36 h-36 lg:w-48 lg:h-48">
+      <div className="rounded-full bg-gradient-to-b from-circleDark to-circleLight flex flex-col items-center justify-center w-36 h-36 lg:w-48 lg:h-48">
         <h2 className="text-white font-extrabold text-5xl lg:text-6xl">
           {testResults}
         </h2>
