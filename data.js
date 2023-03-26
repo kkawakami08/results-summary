@@ -1,22 +1,26 @@
 export default [
   {
     category: "Reaction",
-    score: 80,
-    icon: "./assets/images/icon-reaction.svg",
+    score: 30,
+    icon: "reaction",
+    color: "lightRed",
   },
   {
     category: "Memory",
-    score: 92,
-    icon: "./assets/images/icon-memory.svg",
+    score: 62,
+    icon: "memory",
+    color: "orangeyYellow",
   },
   {
     category: "Verbal",
-    score: 61,
-    icon: "./assets/images/icon-verbal.svg",
+    score: 21,
+    icon: "verbal",
+    color: "greenTeal",
   },
   {
     category: "Visual",
-    score: 72,
-    icon: "./assets/images/icon-visual.svg",
+    score: 92,
+    icon: "visual",
+    color: "cobaltBlue",
   },
 ];
