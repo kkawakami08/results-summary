@@ -10,18 +10,16 @@ import icon from "../public/images/icon-reaction.svg";
 
 export default function SummaryPoints({ data }) {
   let imgPath = `../images/icon-${data.icon}.svg`;
-    let textColor = `text-${data.color}`
-    let bgColor = `bg-${data.color}`
 
   return (
     <div
-      className={`w-full flex ${bgColor}/10 rounded-xl justify-between p-5 `}
+      className={`w-full flex bg-/10 rounded-xl justify-between p-5 `}
     >
       <div className="flex gap-3">
         <div className="relative w-5 h-auto">
           <Image src={imgPath} alt="icon" fill object-fit="cover" />
         </div>
-        <h3 className={`${textColor} font-extrabold text-lg`}>
+        <h3 className={`text-${data.color} font-extrabold text-lg`}>
           {data.category}
         </h3>
       </div>
