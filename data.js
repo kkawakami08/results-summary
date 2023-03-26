@@ -1,7 +1,7 @@
 export default [
   {
     category: "Reaction",
-    score: 30,
+    score: 70,
     icon: "reaction",
     color: "lightRed",
   },

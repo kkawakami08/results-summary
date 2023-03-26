@@ -13,7 +13,7 @@ export default function SummaryPoints({ data }) {
 
   return (
     <div
-      className={`w-full flex bg-${data.color}/10 rounded-xl justify-between p-5`}
+      className={`w-full flex bg-${data.color}/10 rounded-xl justify-between p-5 `}
     >
       <div className="flex gap-3">
         <div className="relative w-5 h-auto">

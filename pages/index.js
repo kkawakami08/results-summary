@@ -17,16 +17,16 @@ export default function Home() {
       <Head>
         <title>Results Summary Component</title>
       </Head>
-      <main className="h-screen bg-white flex flex-col items-center">
+      <main className="h-screen bg-white flex flex-col items-center lg:flex-row lg:w-3/5 lg:mx-auto lg:justify-center ">
         <Header testResults={results} />
 
-        <div className="w-5/6 flex flex-col gap-4 py-5">
+        <div className="w-5/6 flex flex-col gap-4 py-5 lg:px-7 lg:rounded-r-3xl lg:shadow-md lg:w-3/4  lg:h-1/2">
           <h1 className="font-extrabold text-2xl text-darkGrayBlue">Summary</h1>
           <SummaryPoints data={testResults[0]} />
           <SummaryPoints data={testResults[1]} />
           <SummaryPoints data={testResults[2]} />
           <SummaryPoints data={testResults[3]} />
-          <button className="bg-darkGrayBlue hover:bg-gradient-to-b hover:from-headerLight hover:to-headerDark text-white py-5 rounded-full font-medium text-lg">
+          <button className="bg-darkGrayBlue hover:bg-gradient-to-b hover:from-headerLight hover:to-headerDark text-white py-5 rounded-full font-medium text-lg lg:py-3">
             Continue
           </button>
         </div>
