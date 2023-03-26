@@ -1,5 +1,6 @@
 import Image from "next/image";
 import icon from "../public/images/icon-reaction.svg";
+import testResults from "../data.js";
 
 export default function SummaryPoints() {
   return (
