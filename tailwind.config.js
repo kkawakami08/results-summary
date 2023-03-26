@@ -9,7 +9,20 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        headerLight: "hsl(var(--header-light))",
+        headerDark: "hsl(var(--header-dark))",
+        circleLight: "hsl(var(--cirlce-light)/1)",
+        circleDark: "hsl(var(--circle-dark)/0)",
+        paleBlue: "hsl(var(--pale-blue))",
+        lightLavender: "hsl(var(--light-lavender))",
+        darkGrayBlue: "hsl(var(--dark-gray-blue))",
+      },
+      fontFamily: {
+        sans: ["Hanken Grotesk", "Arial", "sans-serif"],
+      },
+    },
   },
   plugins: [],
 };

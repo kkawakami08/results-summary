@@ -1,6 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  :root {
+    --header-light: 252deg 100% 67%;
+    --header-dark: 241deg 81% 54%;
+    --circle-dark: 256deg 72% 46%;
+    --circle-light: 241deg 72% 46%;
+    --pale-blue: 221deg 100% 96%;
+    --light-lavender: 241deg 100% 89%;
+    --dark-gray-blue: 224deg 30% 27%;
+
+    /* ... */
+  }
+}
 
 * {
   box-sizing: border-box;
